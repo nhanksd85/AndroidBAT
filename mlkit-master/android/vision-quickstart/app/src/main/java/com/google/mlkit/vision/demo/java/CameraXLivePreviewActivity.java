@@ -289,7 +289,7 @@ public final class CameraXLivePreviewActivity extends AppCompatActivity
     sum += 1;
 
     TextView txtTotal = dialog.findViewById(R.id.txtTotal);
-    txtTotal.setText("Total: " + sum);
+    txtTotal.setText("Total Balance Score: " + sum);
 
 //    dialog.setOnCancelListener(dialogInterface -> {
 //      ((MainActivity)context).goFullscreen();

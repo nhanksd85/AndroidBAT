@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <TextView
         android:id = "@+id/text_title"
         android:layout_width="match_parent"
@@ -13,6 +14,27 @@
         android:textSize = "25dp"
         android:textColor = "#E15F09">
     </TextView>
+    <TextView
+        android:id = "@+id/txtTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity = "center_horizontal"
+        android:textSize = "25dp"
+        android:textColor = "#E15F09"
+        android:textStyle = "bold"
+        android:text = "Body Score: ">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity = "center_horizontal"
+        android:textSize = "20dp"
+        android:text = "Test: SLS Baseline "
+        android:textColor = "#E15F09">
+
+    </TextView>
+
     <TextView
         android:id = "@+id/txtAnkle"
         android:layout_width="match_parent"
@@ -52,16 +74,7 @@
         android:textColor = "#E15F09"
         android:text = "Body Score: ">
     </TextView>
-    <TextView
-        android:id = "@+id/txtTotal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity = "center_horizontal"
-        android:textSize = "25dp"
-        android:textColor = "#E15F09"
-        android:textStyle = "bold"
-        android:text = "Body Score: ">
-    </TextView>
+
 
     <Button
         android:id = "@+id/btnOK"
